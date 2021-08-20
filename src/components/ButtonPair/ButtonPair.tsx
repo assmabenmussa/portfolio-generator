@@ -7,7 +7,7 @@ const ButtonPair = ({returnClickedOption}: any) => {
         <div style={{ display: "flex", justifyContent: "center", marginBottom: "20px" }}>
             <button className="pcButton" onClick={() => {
                 setClickedOption("pc");
-                }}>from PC</button>
+                }}>PC</button>
             <button className="linkButton" onClick={() => {
                 setClickedOption("link");
                 }}>link</button>
